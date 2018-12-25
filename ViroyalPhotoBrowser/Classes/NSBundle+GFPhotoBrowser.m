@@ -38,8 +38,8 @@
     static dispatch_once_t onceToken;
     static NSBundle *bundle;
     dispatch_once(&onceToken, ^{
-        NSBundle *frameworkBundle = [NSBundle bundleWithIdentifier:@"org.cocoapods.VIPhotoBrowser"];
-        NSString *path = [frameworkBundle pathForResource:@"VIPhotoBrowser" ofType:@"bundle"];
+        NSBundle *frameworkBundle = [NSBundle bundleWithIdentifier:@"org.cocoapods.ViroyalPhotoBrowser"];
+        NSString *path = [frameworkBundle pathForResource:@"ViroyalPhotoBrowser" ofType:@"bundle"];
         bundle = [NSBundle bundleWithPath:path];
     });
     
