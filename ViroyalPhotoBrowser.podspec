@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Controllers' do |ss|
     ss.dependency 'ViroyalPhotoBrowser/Cells'
-    ss.source_files = 'ViroyalPhotoBrowser/Classes/GFAlbumViewController.{h,m}', 'ViroyalPhotoBrowser/Classes/GFPhotoBrowserNavigationController.{h,m}', 'ViroyalPhotoBrowser/Classes/GFPhotoBrowserViewController.{h,m}', 'VIPhotoBrowser/Classes/GFPhotoCropViewController.{h,m}'
+    ss.source_files = 'ViroyalPhotoBrowser/Classes/GFAlbumViewController.{h,m}', 'ViroyalPhotoBrowser/Classes/GFPhotoBrowserNavigationController.{h,m}', 'ViroyalPhotoBrowser/Classes/GFPhotoBrowserViewController.{h,m}', 'ViroyalPhotoBrowser/Classes/GFPhotoCropViewController.{h,m}'
   end
 
 end
